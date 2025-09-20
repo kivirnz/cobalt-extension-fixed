@@ -1,5 +1,5 @@
 chrome.storage.sync.get(
-    { instance: 'cobalt.tools', auto: true },
+    { instance: 'cobalt.meowing.de', auto: true },
     (items) => {
         const u = new URLSearchParams(window.location.search).get('u');
         if(location.host === items.instance && items.auto && u) {
