@@ -12,7 +12,7 @@ const saveOptions = () => {
 
 const restoreOptions = () => {
     chrome.storage.sync.get(
-        { apiurl: 'api.cobalt.tools', auto: true },
+        { apiurl: 'cobalt.meowing.de', auto: true },
         (items) => {
             document.getElementById('instance').value = items.apiurl;
             document.getElementById('auto').checked = items.auto;
