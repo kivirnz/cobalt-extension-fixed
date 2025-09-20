@@ -6,7 +6,7 @@ Supports setting cobalt instance and if to press save button automatically.
 ![Screenshot](https://lune.dimden.dev/e9db75a55a.png)  
 
 ### Install
-Add it as an 'unpacked extension' to Chrome/Chromium (after enabling Developer Mode), 
+Add it as an 'unpacked extension' to Chrome/Chromium (after enabling Developer Mode), go to 'Install Add-on From File...' in the Firefox extensions menu and point it to the Firefox release zip file (you may need to set xpinstall.signatures.required to false in about:config to disable signature checks)
   
   
 Powered by [cobalt](https://github.com/wukko/cobalt/).  
