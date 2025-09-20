@@ -15,7 +15,7 @@
     "declarativeNetRequestWithHostAccess"
   ],
   "host_permissions": [
-    "*://*.cobalt.tools/*"
+    "*://*.cobalt.meowing.de/*"
   ],
   "icons": {
     "128": "/images/co.png"
