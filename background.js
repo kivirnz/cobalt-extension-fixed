@@ -65,7 +65,7 @@ chrome.action.onClicked.addListener(tab => {
         return;
     }
     chrome.storage.sync.get(
-        { apiurl: 'api.cobalt.tools' },
+        { apiurl: 'cobalt.meowing.de' },
         (items) => {
             downloadItem(items.apiurl, tab.url);
         }
@@ -75,14 +75,14 @@ chrome.action.onClicked.addListener(tab => {
 chrome.contextMenus.onClicked.addListener((info, tab) => {  
     if(info.menuItemId === "download-media-from-link") {
         chrome.storage.sync.get(
-            { apiurl: 'api.cobalt.tools' },
+            { apiurl: 'cobalt.meowing.de' },
             (items) => {
                 downloadItem(items.apiurl, info.linkUrl)
             }
         );
     } else if(info.menuItemId === "download-media-from-page") {
         chrome.storage.sync.get(
-            { apiurl: 'api.cobalt.tools' },
+            { apiurl: 'cobalt.meowing.de' },
             (items) => {
                 downloadItem(items.apiurl, tab.url);
             }
