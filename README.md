@@ -6,8 +6,11 @@ Supports setting cobalt instance and if to press save button automatically.
 ![Screenshot](https://lune.dimden.dev/e9db75a55a.png)  
 
 ### Install
-~~**Chrome, Opera, Brave & Chromium browsers:** [Chrome Web Store](https://chrome.google.com/webstore/detail/cobalt-downloader/aljdknakoehcmmhflhfakfabbohhlohn)~~ Chrome Web Store is not approving updates anymore, please install it manually by downloading Code of this repo and loading it as unpacked extension.   
-**Firefox:** [Firefox Addons](https://addons.mozilla.org/uk/firefox/addon/cobalt-downloader/)  
+Add it as an 'unpacked extension' to Chrome/Chromium (after enabling Developer Mode), 
   
   
 Powered by [cobalt](https://github.com/wukko/cobalt/).  
+
+Original repo made by [dimdenGD](https://github.com/dimdenGD), fix made by [kivir](https://github.com/kivirnz)
+
+(The reason why this fork was made was because you couldn't set the instance manually in the Firefox version, only in the Chrome/Chromium version)
