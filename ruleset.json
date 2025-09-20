@@ -8,7 +8,7 @@
                 {
                     "header": "origin",
                     "operation": "set",
-                    "value": "https://cobalt.tools"
+                    "value": "https://cobalt.meowing.de"
                 },
                 {
                     "header": "referer",
@@ -22,7 +22,7 @@
             ]
         },
         "condition": {
-            "urlFilter": "||cobalt.tools/*",
+            "urlFilter": "||cobalt.meowing.de/*",
             "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "xmlhttprequest", "other"]
         }
     }
